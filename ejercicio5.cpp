@@ -27,10 +27,12 @@ int main (){
                 if ((x==0) || (x==11)){
                     printf("%c", letra);
                 }else{
-                    if (y==1){
-                        printf(" ");
-                        printf("%c", hola[i]);
-                        i = i + 1;
+                    if (y==1){                    	
+                    	if (i<=3){						
+                    		printf(" ");
+	                        printf("%c", hola[i]);
+	                        i = i + 1;	
+						}                        
                     }else{
                         printf(" ");
                     }
